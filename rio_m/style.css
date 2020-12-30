@@ -1,0 +1,11 @@
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:lavender;
+    font-size: 50px;
+    background-color: gray;
+    border-radius: 15px;
+    padding:13px;
+}
