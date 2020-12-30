@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        
+    </main>
 </body>
 </html>
