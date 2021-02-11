@@ -1,0 +1,20 @@
+.back {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+}
+
+h1 {
+    color: white;
+}
+
+footer {
+    background-color: aqua;
+}
+
+small {
+    color: white;
+}
