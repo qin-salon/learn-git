@@ -1,0 +1,34 @@
+body {
+  background-image: url("ramen.avif");
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Noodle {
+  display: flex;
+  gap: 1.5em;
+  overflow: hidden;
+  width: 100%;
+  animation-direction: reverse;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+}
+.Noodle__Text {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f2f2f2;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateZ(0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
